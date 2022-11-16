@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ContenPageFlowDirection.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    FlowDirection="RightToLeft">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <Frame>
+                <VerticalStackLayout>
+                    <Label Text="Some Text Just Showing Whene Content Page FlowDirection Set To LeftToRight " />
+                    <Image
+                        HeightRequest="200"
+                        HorizontalOptions="Center"
+                        SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                        Source="dotnet_bot.png" />
+                </VerticalStackLayout>
+            </Frame>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
