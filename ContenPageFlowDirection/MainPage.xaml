@@ -5,14 +5,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     FlowDirection="RightToLeft">
 
-    <ScrollView>
+     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
             VerticalOptions="Center">
-
-            <Frame>
+            <Label Text="in Frame Below you shoud See Label and image " />
+            <Frame BackgroundColor="Red">
                 <VerticalStackLayout>
+
                     <Label Text="Some Text Just Showing Whene Content Page FlowDirection Set To LeftToRight " />
                     <Image
                         HeightRequest="200"
