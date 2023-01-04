@@ -8,3 +8,6 @@ Some Description
 2- stap Two is to use [git add <fileName>] to let the file be tracked by git system.  
                       [git add ContenPageFlowDirection/README.md]
 3- Or You Can easily use [git add .] to make all untraked files Be TRAKED
+
+4- NEw We need to COMMIT all files (save theme localy in our PC) using this command : 
+[git commit -m "Commit Headline Message" -m "Commit Discrption Message"]
